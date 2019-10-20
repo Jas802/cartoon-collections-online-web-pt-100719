@@ -1,8 +1,8 @@
 dwarves = %w[
   Doc
   Dopey
-  Bashful
   Grumpy
+  Bashful
   Sneezy
   Sleepy
   Happy
