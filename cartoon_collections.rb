@@ -1,11 +1,11 @@
 dwarves = %w[
-  Doc
   Dopey
   Grumpy
   Bashful
   Sneezy
   Sleepy
   Happy
+  Doc
 ]
 
 def roll_call_dwarves(dwarves)# code an argument here
