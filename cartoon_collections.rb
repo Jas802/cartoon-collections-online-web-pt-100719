@@ -28,8 +28,15 @@ def long_planeteer_calls(long_planeteer_calls)# code an argument here
  planeteer_calls.any? { |call| call.length > 4 }  # Your code here
 end
 
+potential_cheese = %w[cheddar dog football guitar]
 
-def find_the_cheese# code an argument here
+def find_the_cheese(potential_cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+
+  potential_cheese.find do |maybe_cheese|
+    cheeses.include?(maybe_cheese)
+  end
 end
+
+find_the_cheese(potential_cheese)
