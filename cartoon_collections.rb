@@ -35,7 +35,7 @@ def find_the_cheese(potential_cheese)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   potential_cheese.find do |maybe_cheese|
-    cheeses.include?(maybe_cheese)
+    cheese_types?(maybe_cheese)
   end
 end
 
